@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Society Internship Project</title>
+	<link rel="stylesheet" href="style.css">
+	
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<section class="sub-header">
+		<nav>
+			
+			<a href="index.html"><img src="images/logo.png"></a>
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-times" oneclick="hideMenu()"></i>
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="course.html">Solutions</a></li>
+					<li><a href="blog.html">Blog</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</div>
+			<i class="fa fa-bars" oneclick="showMenu()"></i>
+		</nav>
+		
+		<h1>Agri-Solve in 2022-23</h1>
+
+	</section>
+
+	<!-------------------blog page content------------------>
+	
+<section class="blog-content">
+	<div class="row">
+		<div class="blog-left">
+			<img src="images/pic12.jpg">
+			<h2> Our activities 2022-23 </h2>
+			<p>We train and advise agricultural institutions on technical and organisational issues.</p>
+			<br>
+			<p>We promote business models benefiting poor male and female farmers.</p>
+			<br>
+			<p>to make agriculture more sustainable by developing a supportive policy environment and promoting environmentally friendly practices, technologies and services.</p>
+			<br>
+			<p>We support a good investment climate.</p>
+			<br>
+			<p>We promote civil society groups and advise them, for example, on social participation and secure land rights.</p>
+			<br>
+			<p>We support the development of urban-rural relations.</p>
+
+
+			<div class="comment-box">
+				<h3>Leave a Comment</h3>
+				<form class="comment-form">
+					<input type="text" placeholder="Input Name">
+					<input type="email" placeholder="Input Mail">
+					<textarea rows="5" placeholder="Your Comment"></textarea>
+					<button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+				</form>
+			</div>
+
+		</div>
+		<div class="blog-right">
+			<h3>Post categories</h3>
+			<div>
+				<span>Business analytic</span>
+				<span>16</span>
+			</div>
+
+			<div>
+				<span>Technical Assistant</span>
+				<span>11</span>
+			</div>
+
+			<div>
+				<span>Agriculture Expert</span>
+				<span>33</span>
+			</div>
+
+			<div>
+				<span>Marketing Team</span>
+				<span>13</span>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+	
+
+
+<!---------------------------footer-------------------------->	
+
+<section class="footer">
+	<h4>About Us</h4>
+	<p>All rights are reserved.</p>
+	<div class="icons">
+		<i class="fa fa-facebook"></i>
+		<i class="fa fa-twitter"></i>
+		<i class="fa fa-instagram"></i>
+		<i class="fa fa-linkedin"></i>
+	</div>
+	<p>This Site is developed by<br>   Kotapati Lakshma Reddy </p>
+</section>
+
+
+<!-------------------------JavaScript for Toggle Menu------------------------>
+<script type="text/javascript">
+	var navLinks = document.getElementById("navLinks")
+	function showMenu(){
+		navLinks.style.right = "0";
+	}
+	function hideMenu(){
+		navLinks.style.right = "-200px";
+	}
+</script>
+
+
+</body>
+</html>

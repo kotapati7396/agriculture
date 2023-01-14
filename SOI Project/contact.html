@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Society Internship Project</title>
+	<link rel="stylesheet" href="style.css">
+	
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<section class="sub-header">
+		<nav>
+			
+			<a href="index.html"><img src="images/logo.png"></a>
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-times" oneclick="hideMenu()"></i>
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="course.html">Solutions</a></li>
+					<li><a href="blog.html">Blog</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</div>
+			<i class="fa fa-bars" oneclick="showMenu()"></i>
+		</nav>
+		
+		<h1>Contact Us</h1>
+
+	</section>
+
+	<!-------------------Contact us content------------------>
+	
+
+	<section class="location">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1019.9345475575117!2d87.04423597075403!3d25.254272733684914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f0481fd7d50f6d%3A0xbe75d3ff73e0373e!2sIndian%20Institute%20of%20Information%20Technology%20Bhagalpur!5e0!3m2!1sen!2sin!4v1668317713901!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+		
+	</section>
+
+	<div class="support">
+		<h2>Fill the form and send us your query for instant solution.</h2>
+	</div>
+
+
+	<section class="contact-us">
+		<div class="row">
+			<div class="contact-col">
+				<div class="icon">
+					<i class="fa fa-home fa-lg"></i>
+					<span>
+						<h5>IIIT Bhagalpur</h5>
+						<p>BCE Campus, Sabour,Bhagalpur,Bihar 815239</p>
+					</span>
+					
+				</div>
+
+
+				<div class="icon">
+					<i class="fa fa-phone fa-lg"></i>
+					<span>
+						<h5>+91 0000000000</h5>
+						<p>Everyday from 10a.m. to 5 p.m.</p>
+					</span>
+					
+				</div>
+
+
+				<div class="icon">
+					<i class="fa fa-envelope-o fa-lg"></i>
+					<span>
+						<h5>Agri-Solve@gmail.com</h5>
+						<p>Email us for any query</p>
+					</span>
+					
+				</div>
+				
+			</div>
+			<div class="contact-col">
+				<form action="form-handler.php" method="post">
+					<input type="text" class="name" placeholder="Enter your name" required>
+					<input type="email" class="email" placeholder="Enter your email" required>
+					<input type="text" class="subject" placeholder="Enter your subject" required>
+					<textarea rows="8" class="message" placeholder="Messege" required></textarea>
+					<button class="hero-btn red-btn">Send Messege</button>
+					
+				</form>
+
+			</div>
+		</div>
+	</section>
+	
+
+
+<!---------------------------footer-------------------------->	
+
+<section class="footer">
+	<h4>About Us</h4>
+	<p>All rights are reserved.</p>
+	<div class="icons">
+		<i class="fa fa-facebook"></i>
+		<i class="fa fa-twitter"></i>
+		<i class="fa fa-instagram"></i>
+		<i class="fa fa-linkedin"></i>
+	</div>
+	<p>This Site is developed by<br>  Kotapati Lakshma Reddy </p>
+</section>
+
+
+<!-------------------------JavaScript for Toggle Menu------------------------>
+<script type="text/javascript">
+	var navLinks = document.getElementById("navLinks")
+	function showMenu(){
+		navLinks.style.right = "0";
+	}
+	function hideMenu(){
+		navLinks.style.right = "-200px";
+	}
+</script>
+
+
+</body>
+</html>
